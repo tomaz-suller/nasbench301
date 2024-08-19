@@ -247,7 +247,9 @@
       "log": true,
       "mu": 0.025,
       "sigma": 0.05,
-      "default": 0.025
+      "default": 0.025,
+      "lower": 0.01,
+      "upper": 4
     },
     {
       "name": "OptimizerSelector:sgd:momentum",
@@ -263,7 +265,9 @@
       "log": true,
       "mu": 0.0003,
       "sigma": 0.0006,
-      "default": 0.0003
+      "default": 0.0003,
+      "lower": 0.01,
+      "upper": 4
     },
     {
       "name": "SimpleLearningrateSchedulerSelector:cosine_annealing:T_max",
