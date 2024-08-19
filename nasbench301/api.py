@@ -90,7 +90,7 @@ class SurrogateAPI():
         """
         config_dict = self.convert_representation(config, representation)
 
-        config_dict = {**fixed_hyperparameters, **config_dict}
+        config_dict = {**config_dict, **fixed_hyperparameters}
 
         if with_noise:
             pred = self.model.query(config_dict)
