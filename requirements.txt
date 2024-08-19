@@ -1,6 +1,5 @@
 click
 Cython
-git+https://github.com/tomaz-suller/ConfigSpace.git@fix-naslib
 lightgbm>=2.3.1
 xgboost
 numpy
